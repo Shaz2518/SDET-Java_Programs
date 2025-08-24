@@ -16,15 +16,16 @@ public class CountNumberOfDigits {
 		// Print count
 		System.out.println("The number " + num + " has " + digitCount + " digits");
 	}
-
+	
 	//Method for counting digits
 	public static int getDigitCount(int number) {
 		int count = 0;
-		while (number != 0) {
-			number = number / 10;
-			count++;
+		while (number != 0) {	  //Loop runs until number is zero
+			number = number / 10; //Remove last digit in a number
+			count++;			  //count increase
 		}
 		return count;
 	}
+	
 
 }
