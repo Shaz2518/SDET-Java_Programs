@@ -24,6 +24,8 @@ public class FibonacciSeries {
 			firstDigit = secondDigit;
 			secondDigit = thirdDigit;
 		}
+		
+		scr.close();
 
 	}
 
