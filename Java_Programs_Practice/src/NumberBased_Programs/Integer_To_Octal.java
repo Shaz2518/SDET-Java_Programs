@@ -18,14 +18,14 @@ public class Integer_To_Octal {
 		int number, sum=0, i=1, temp, rem;
 		number = scr.nextInt();
 		
-		temp = number;
-		while(temp !=0)
+		temp = number;  //59
+		while(temp !=0)  // (59 !=0) (3 !=0) (0==0)
 		{
 			   
-			rem = temp % 8;  // 7 
-			sum = sum + i * rem; //7
-			i = i*10; // 10
-			temp = temp/8;  // 7
+			rem = temp % 8;  // (3) (7)
+			sum = sum + i * rem; //(3) (73)
+			i = i*10; // (10) (100)
+			temp = temp/8;  // (7) //0
 		}
 		
 		System.out.println("Octal Number Login: " + sum);
