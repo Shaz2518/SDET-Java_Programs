@@ -1,4 +1,4 @@
-package NumberBased_Programs;
+package numberBased_Programs;
 
 import java.util.Scanner;
 
@@ -15,6 +15,7 @@ public class Factorial_Number {
 		}
 		
 		System.out.println("Factorial: " + fact);
+		scr.close();
 
 	}
 

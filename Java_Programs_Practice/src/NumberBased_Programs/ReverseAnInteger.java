@@ -1,4 +1,4 @@
-package NumberBased_Programs;
+package numberBased_Programs;
 
 import java.util.Scanner;
 
@@ -16,6 +16,7 @@ public class ReverseAnInteger {
 			num=num/10;				// num = 1234 123
 		}
 		System.out.println(rev);
+		scr.close();
 	}
 
 }

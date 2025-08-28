@@ -1,4 +1,4 @@
-package NumberBased_Programs;
+package numberBased_Programs;
 
 import java.util.Scanner;
 
@@ -12,6 +12,7 @@ public class Count_EvenOddDigits {
 
 		// Call Method to count digit
 		getDigitCount(num);
+		scr.close();
 
 	}
 

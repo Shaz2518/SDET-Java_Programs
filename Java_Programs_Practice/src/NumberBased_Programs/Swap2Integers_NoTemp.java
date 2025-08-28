@@ -1,4 +1,4 @@
-package NumberBased_Programs;
+package numberBased_Programs;
 
 import java.util.Scanner;
 
@@ -15,6 +15,7 @@ public class Swap2Integers_NoTemp {
 
 		// Call a method of swap
 		swapNumbers(num1, num2);
+		scr.close();
 }
 
 	// Create a method to swap
@@ -26,3 +27,5 @@ public class Swap2Integers_NoTemp {
 	}
 
 }
+
+

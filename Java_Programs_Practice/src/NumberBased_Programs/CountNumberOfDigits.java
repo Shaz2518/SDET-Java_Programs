@@ -1,4 +1,4 @@
-package NumberBased_Programs;
+package numberBased_Programs;
 
 import java.util.Scanner;
 
@@ -15,6 +15,7 @@ public class CountNumberOfDigits {
 
 		// Print count
 		System.out.println("The number " + num + " has " + digitCount + " digits");
+		scr.close();
 	}
 	
 	//Method for counting digits
