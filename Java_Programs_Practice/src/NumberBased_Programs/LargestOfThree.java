@@ -40,6 +40,8 @@ public class LargestOfThree {
 		{
 			System.out.println("Third Number is Largest: " + num3);
 		}
+		
+		scr.close();
 	}
 	
 
