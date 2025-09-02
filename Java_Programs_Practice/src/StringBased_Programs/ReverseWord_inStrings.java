@@ -2,7 +2,7 @@ package StringBased_Programs;
 
 import java.util.Scanner;
 
-public class ReverseString_RemoveSpace {
+public class ReverseWord_inStrings {
 
 	public static void main(String[] args) {
 		Scanner scr = new Scanner(System.in);
@@ -11,14 +11,13 @@ public class ReverseString_RemoveSpace {
 		
 		//Remove Space from String
 		System.out.println("String Before space is: " + input);
-		String replace = input.replace(" ", "");
-		System.out.println("String without space is: " + replace);
 		
 		
+		//Reverse a String
 		String rev = "";
-		for(int i=replace.length()-1; i>=0; i--)
+		for(int i=input.length()-1; i>=0; i--)
 		{
-			rev = rev + replace.charAt(i);
+			rev = rev + input.charAt(i);
 		}
 		System.out.println("Reverse String is: " + rev);
 		
