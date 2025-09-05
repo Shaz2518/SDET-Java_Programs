@@ -17,14 +17,15 @@ public class FibonacciSeries {
 		//Print fibonacci series 0 1 1 2 3 5 8 13.... (c = a + b)
 		System.out.println("Fibonacci Series of " + seriesDigit + " numbers are: ");
 			
-		for(int i=0; i<seriesDigit; i++)  //Loop to print digits
+		for(int i=0; i<=seriesDigit; i++)  //Loop to print digits
 		{
 			System.out.print(firstDigit + " ");
 			thirdDigit = firstDigit + secondDigit;
 			firstDigit = secondDigit;
 			secondDigit = thirdDigit;
+			
 		}
-		
+		//System.out.println();
 		scr.close();
 
 	}
