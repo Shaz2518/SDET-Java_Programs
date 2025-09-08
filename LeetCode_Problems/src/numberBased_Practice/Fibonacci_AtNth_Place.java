@@ -18,6 +18,7 @@ public class Fibonacci_AtNth_Place {
 			second = next;
 		}
 		System.out.println("\nNumber at Nth term: " + second);
+		scr.close();
 
 	}
 
