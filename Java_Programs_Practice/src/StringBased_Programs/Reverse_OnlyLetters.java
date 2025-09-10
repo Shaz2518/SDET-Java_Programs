@@ -1,4 +1,4 @@
-package StringBased_Programs;
+package Java_Programs_Practice.src.StringBased_Programs;
 
 public class Reverse_OnlyLetters {
 
