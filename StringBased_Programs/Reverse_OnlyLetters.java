@@ -26,10 +26,7 @@ public class Reverse_OnlyLetters {
 				right--;
 			}
 		
-		for(int i=0; i<strArray.length; i++)
-		{
-			System.out.println(strArray[i]);
-		}
+		System.out.println("Output: " + new String(strArray));
 		
 		
 
